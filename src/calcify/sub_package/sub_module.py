@@ -1,0 +1,1 @@
+CONSTANT = "Hello from sub_module.py!"
