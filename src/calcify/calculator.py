@@ -1,9 +1,11 @@
 """Calculator module."""
 
+import numpy as np
+
 
 def add(a: float, b: float, *args: float) -> float:
     """Return the sum of all provided numbers. At least two numbers must be provided."""
-    return a + b + sum(args)
+    return np.sum([a, b, *args])
 
 def subtract(a: float, b: float) -> float:
     """Return the difference between a and b."""
